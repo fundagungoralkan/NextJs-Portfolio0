@@ -1,0 +1,17 @@
+@use "../../styles/variables" as *;
+@use "../../styles/mixins" as *;
+
+.contact-title{
+  color: var(--skin-color);
+  text-align: center;
+  font-size:2rem;
+  margin-bottom: 20px;
+  font-weight: 500;
+
+}
+.contact-sub-title{
+  color: var(--text-black-900);
+  text-align: center;
+  font-size: 1.2rem;
+  margin-bottom: 60px;
+}

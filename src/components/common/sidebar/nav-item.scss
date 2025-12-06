@@ -1,0 +1,36 @@
+@use "../../../styles/variables.scss" as *;
+@use "../../../styles/mixins.scss" as *;
+
+
+.nav-container {
+  display: block;
+  
+ .nav-link {
+    font-size: 1.2rem;
+    font-weight: 600;
+    display: block;
+    border-bottom: 1px solid var(--bg-black-50);  /* SCSS yerine CSS değişkeni */
+    width: 100%;
+    color: var(--text-black-900);  /* SCSS yerine CSS değişkeni */
+    transition: all 0.3s ease;
+    padding-right: 0.5rem !important;
+
+    i {
+      margin-right: 15px;
+    }
+
+    &:hover {
+      color: var(--skin-color);  
+    }
+
+    &.active {
+      color: var(--skin-color) !important;  
+    }
+    @media (max-width: 991px) {
+      font-size: 1rem;
+      width: 100%;
+      padding: 0.5rem 1.3rem;
+      text-align: center;
+    }
+  }
+}

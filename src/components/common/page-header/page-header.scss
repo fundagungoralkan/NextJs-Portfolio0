@@ -1,0 +1,68 @@
+@use "../../../styles/variables.scss" as *;
+@use "../../../styles/mixins.scss" as *;
+
+.page-header {
+ // background-color: var(--bg-color-900);
+
+  text-align: left;
+  padding: 40px 0;
+
+  @media (min-width: 768px) {
+    padding: 50px 0px;
+  }
+
+  @media (min-width: 1024px) {
+    padding: 50px 0px;
+  }
+
+  .title-page-header {
+    font-size: 32px;
+    font-weight: bold;
+    color: var(--text-color-100);
+    margin-bottom: 10px;
+
+    @media (min-width: 768px) {
+      font-size: 40px;
+    }
+
+    @media (min-width: 1024px) {
+      font-size: 48px;
+    }
+  }
+
+  .red-lines {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+
+    .line {
+      height: 5px;
+      background-color: var(--skin-color);
+      border-radius: 2px;
+
+      &.big {
+        width: 70px;
+
+        @media (min-width: 768px) {
+          width: 90px;
+        }
+
+        @media (min-width: 1024px) {
+          width: 100px;
+        }
+      }
+
+      &.small {
+        width: 40px;
+
+        @media (min-width: 768px) {
+          width: 50px;
+        }
+
+        @media (min-width: 1024px) {
+          width: 60px;
+        }
+      }
+    }
+  }
+}

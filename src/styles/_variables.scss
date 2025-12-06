@@ -1,0 +1,55 @@
+
+/* ==== COLORS ===== */
+$color1: #ffffff;
+$color2:  #ff0328;
+$color3: #000000;
+$color4: #ffc133;
+$color5: #03bdc5;
+$color6: #9ebf16;
+$color7: #f021b2;
+
+
+/* ==== VENDOR PREFIXES ===== */
+$vendors: ("", "-webkit-", "-moz-", "-ms-", "-o-");
+
+
+/* Bootstrap Renk Değişiklikleri */
+$primary: $color2; //
+$secondary: $color3; //
+
+/* Navbar Renkleri */
+$navbar-light-color: $color3;
+$navbar-light-hover-color: $color2;
+$navbar-light-active-color: $color1;
+$container-max-widths: (
+  sm: 540px,
+  md: 770px,
+  lg: 1010px,
+  xl: 1190px,
+  xxl: 1350px,
+) !default;
+
+// Spacing
+$spacing-xs: 4px;
+$spacing-sm: 8px;
+$spacing-base: 12px;
+$spacing-md: 16px;
+$spacing-lg: 24px;
+$spacing-xl: 32px;
+
+// Colors
+$color-primary: $color3;
+$color-secondary: $color3;
+$color-white:$color3;
+$color-light: $color1;
+$color-dark: $color3;
+$text-color: $color3;
+
+// Border
+$border-radius-sm: 4px;
+$border-radius: 8px;
+$border-radius-lg: 12px;
+
+// Box Shadow
+$box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+

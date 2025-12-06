@@ -1,0 +1,98 @@
+@use "../../styles/variables" as *;
+@use "../../styles/mixins" as *;
+
+.skills-section {
+  padding: 2rem;
+  background-color: var(--bg-color-900);
+
+  .slider {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+  }
+
+  .loop-slider {
+    overflow: hidden;
+    width: 100%;
+
+    &__inner {
+      display: flex;
+      width: max-content;
+      animation: scroll var(--duration) linear infinite;
+      animation-direction: var(--direction);
+    }
+  }
+
+  .slider-row {
+    display: flex;
+    gap: 1rem;
+    padding: 0 1rem;
+  }
+
+  .slider-item {
+    flex-shrink: 0;
+    width: 12.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: var(--bg-black-100);
+    border-radius: 20px;
+    border: 0.5px solid var(--skin-color);
+    padding: 10px 20px;
+    margin: 0 10px;
+    box-shadow: $box-shadow;
+    white-space: nowrap;
+
+    .icon {
+      font-size: 1.5rem;
+    }
+
+    span {
+      font-size: 1rem;
+      font-weight: 500;
+    }
+
+    .empty {
+      opacity: 0;
+      pointer-events: none;
+    }
+  }
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+
+@media (max-width: 1024px) {
+  .slider-row {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.75rem;
+  }
+
+  .slider-item {
+    width: auto;
+    max-width: 90vw;
+    white-space: normal;
+    text-align: center;
+    padding: 8px 16px;
+    font-size: 0.9rem;
+    flex-direction: column;
+  }
+
+  .slider-item .icon {
+    font-size: 1.2rem;
+  }
+
+  .slider-item span {
+    font-size: 0.85rem;
+    word-break: break-word;
+  }
+}

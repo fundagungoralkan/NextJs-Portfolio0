@@ -1,0 +1,23 @@
+@use "../../../styles/variables.scss" as *;
+@use "../../../styles/mixins.scss" as *;
+
+aside {
+  width: 370px;
+  background-color: var(--bg-black-100);
+  position: fixed;
+  left: 0;
+  top: 0;
+  padding: 30px;
+  height: 100vh;
+  border-right: 1px solid var(--bg-black-50);
+  @include flexbox(column, center, center);
+  z-index: 10;
+  transition: all 0.3s ease;
+
+  .nav {
+    margin-top: 80px;
+  }
+  @media (max-width: 1300px) {
+    width: 300px;
+  }
+}

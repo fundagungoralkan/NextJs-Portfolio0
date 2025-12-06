@@ -1,0 +1,207 @@
+{
+  "home": {
+    "title": "Merhaba, ben ",
+    "name": "Funda Güngör Alkan, ",
+
+    "my-profession": "",
+    "typing": [
+      "Full Stack Geliştirici",
+      "Yazılım Geliştirici",
+      "Web Geliştirici"
+    ],
+
+    "description": "Yüksek kaliteli, duyarlı ve ölçeklenebilir web uygulamaları oluşturma konusunda hevesli bir  Full Stack Geliştirici olarak çalışıyorum. Ön uçta React & Next.js, arka uçta Java & Spring Boot ile uzmanlaştım; kullanıcı deneyimini kusursuz hale getirmek için tasarım düşüncesini backend mantığıyla birleştiriyorum. Sürekli keşfeden, gelişen ve üreten biriyim. Dünyama hoş geldiniz!",
+    "button-hire-me": "İletişime Geç",
+
+    "image": "funda.jpeg",
+    "imageAlt": "Funda Güngör Alkan"
+  },
+  "about": {
+    "name": "Ben Funda Güngör Alkan, Full Stack geliştiricisiyim",
+    "about_title": "Hakkımda",
+    "button-download-cv": "CV İndir",
+    "about_section_title1": "Eğitim",
+    "about_section_title2": "Deneyim",
+    "title": "Full Stack Geliştirici",
+    "description": "3+ yıllık deneyime sahip bir Full Stack Geliştirici olarak modern framework’ler ve sistem programlama dilleriyle ölçeklenebilir web uygulamaları geliştiriyorum. Java/Spring ekosisteminde (Spring Boot, MVC, Security, Microservices) ve JavaScript/TypeScript yığınında (React.js, Next.js) uzmanım. Temiz mimari, birim testleri ve Agile metodolojilerle yüksek performanslı ve güvenli uygulamalar oluşturmaya tutkuyla bağlıyım. Veritabanı optimizasyonu, versiyon kontrolü ve sürekli öğrenme konusunda yetkinim.",
+    "education": {
+      "education_date": "2014-2018",
+      "school_name": "Afyon Kocatepe Üniversitesi",
+      "degree": "Biyomedikal Mühendisliği"
+    },
+    "experience": {
+      "smyrnaEdu": {
+        "company_name": "InovaForce",
+        "position": "Full Stack Geliştirici",
+        "duration": "Ocak 2025- Ağustos 2025",
+        "description": "Next.js ve TypeScript kullanarak tam duyarlı ve erişilebilir bir eğitim web uygulaması geliştirilmesine öncülük ettim. Kod bakımını ve ölçeklenebilirliği artırmak için modüler, yeniden kullanılabilir bileşenler tasarladım ve uyguladım. Performans ve SEO için sunucu tarafı render (SSR) entegre ettim. Gerçek zamanlı veri gösterimi ve sorunsuz işlevsellik için backend ekibiyle yakın çalışarak RESTful API’leri entegre ettim. Tüm cihaz ve tarayıcılarda kullanıcı deneyimini optimize etmek amacıyla düzenli UI/UX testleri ve performans analizleri yaptım."
+      },
+      "boyrazDisTicaret": {
+        "company_name": "Boyraz Dış Ticaret",
+        "position": "Freelance Frontend Geliştirici",
+        "duration": "Mart 2024- June 2024",
+        "description": "İç işleyişi dijitalleştirmek ve optimize etmek amacıyla React ve JavaScript kullanarak ticaret odaklı bir web platformu geliştirdim. Modern tasarım ilkelerine uygun, dinamik ve duyarlı kullanıcı arayüzü bileşenleri oluşturdum. API entegrasyonlarını hayata geçirerek frontend ile backend arasında doğru ve gerçek zamanlı veri akışını sağladım. Kod okunabilirliği ve performansı artırmak için en iyi durum yönetimi ve bileşen yapılandırma uygulamalarını kullandım. Kullanıcı geri bildirimleri ve analiz verilerine dayanarak kullanılabilirlik iyileştirmelerine katkı sağladım."
+      },
+      "eligibleSchool": {
+        "company_name": "EligibleSchool - Öğrenim Yönetim Sistemi",
+        "position": "Freelance Full Stack Geliştirici",
+        "duration": "Ocak 2024- Mayıs 2024",
+        "description": "Spring Boot ile backend servislerini, React ile frontend arayüzünü kullanarak sıfırdan güçlü bir Öğrenim Yönetim Sistemi geliştirdim. JWT tabanlı kimlik doğrulama kullanarak RESTful API'ler tasarladım ve gerekli validasyon, hata yönetimi ve güvenlik yapılarını entegre ettim. Öğrenciler, öğretmenler ve yöneticiler için rol bazlı erişim kontrollerini uyguladım. Ders yönetimi, programlama, kullanıcı kaydı ve ilerleme takibi gibi temel modülleri geliştirdim. Kod incelemeleri, birim testleri ve dağıtım süreçlerinde aktif rol aldım."
+      }
+    }
+  },
+    "skills": {
+    "skills-title": "Yetenekler",
+    "skills-description": "Verimli, ölçeklenebilir ve kullanıcı odaklı yazılım çözümleri oluşturmamı sağlayan teknik ve sosyal becerilerin kapsamlı bir listesi. Yeni zorluklara karşı sürekli öğrenme ve uyum sağlama becerisine sahibim.",
+    "html": "HTML",
+    "css": "CSS",
+    "javascript": "JavaScript",
+    "react": "React",
+    "next_js": "Next.js",
+    "typescript": "TypeScript",
+    "java": "Java",
+    "spring-boot": "Spring Boot",
+    "spring-mvc": "Spring MVC",
+    "spring-security": "Spring Security",
+    "spring-cloud": "Spring Cloud",
+    "hibernate": "Hibernate",
+    "postgresql": "PostgreSQL",
+    "mongodb": "MongoDB",
+    "mysql": "MySQL",
+    "git": "Git",
+    "github": "GitHub",
+    "restful-apis": "RESTful API'ler",
+    "version-control": "Versiyon Kontrolü",
+    "problem-solving": "Problem Çözme",
+    "creativity": "Yaratıcılık",
+    "attention-to-detail": "Detaylara Dikkat etme ",
+    "collaboration": "Takım Çalışması",
+    "adaptability": "Uyum Sağlama",
+    "continuous-learning": "Sürekli Öğrenme",
+    "critical-thinking":"Eleştirel Düşünme",
+    "communication":"İletișim"
+  },
+  "services": {
+    "services-title": "Hizmetler",
+    "services-description": "Frontend ve backend geliştirmeden veritabanı yönetimine ve çevik proje yürütmeye kadar sunduğum profesyonel hizmetleri keşfedin.",
+    "frontend-title": "Frontend Geliştirme",
+    "frontend-description": "Kullanıcı dostu, performans odaklı arayüzler tasarlayıp geliştiriyorum.",
+    "frontend-icon": "pi pi-desktop",
+
+    "backend-title": "Backend Geliştirme",
+    "backend-description": "Güçlü ve ölçeklenebilir arka uç çözümleri inşa ediyorum.",
+    "backend-icon": "pi pi-server",
+
+    "database-title": "Veritabanı Yönetimi",
+    "database-description": "Veritabanı performansını ve güvenliğini optimize ediyorum.",
+    "database-icon": "pi pi-database",
+
+    "api-title": "API Geliştirme",
+    "api-description": "Sağlam ve verimli RESTful API'ler oluşturuyorum.",
+    "api-icon": "pi pi-code",
+
+    "responsive-title": "Duyarlı Web Tasarımı",
+    "responsive-description": "Tüm cihazlara uygun duyarlı tasarımlar geliştiriyorum.",
+    "responsive-icon": "pi pi-mobile",
+
+    "agile-title": "Çevik Geliştirme",
+    "agile-description": "Projeleri etkili bir şekilde yönetmek için Agile metodolojileri benimsiyorum.",
+    "agile-icon": "pi pi-briefcase"
+  },
+  "projects": {
+    "projects-title": "Projeler",
+    "projects-description": "Modern web teknolojileriyle geliştirilmiş, temiz ve verimli kod yapısına sahip yazılım projelerimden bazılarını keşfedin.",
+    "projects-section-title": "Son Projelerim",
+
+    "project1_title": "Özkapan Web Sitesi",
+    "project1_slug": "e-commerce",
+    "project1_slug_title": "e-ticaret-sitesi",
+    "project1_description_title": "Proje Detayı",
+    "project1_description": "Bu projede, kullanıcı deneyimini ve performansı ön planda tutarak modern bir e-ticaret web uygulaması geliştirdim. Uygulama, Next.js’in sunucu tarafı rendering (SSR) ve statik site oluşturma (SSG) özelliklerinden yararlanarak hızlı yüklenen, SEO dostu ve ölçeklenebilir bir mimari üzerinde inşa edildi.Arayüz tarafında, esnek ve modüler bir yapı sağlamak için Sass (SCSS) kullanarak yeniden kullanılabilir stiller oluşturdum. Tasarım, responsive yapı sayesinde tüm cihaz türlerinde tutarlı bir kullanıcı deneyimi sunar.",
+    "project1_technologies_title": "Proje Geliştirilirken Kullanılan Teknolojiler",
+    "project1_technologies": "NextJs,Sass,Bootstrap,Responsive Web Design",
+    "project1_image": "ozkapan.jpg",
+
+    "project2_title": "Portföy Web Sitesi",
+    "project2_slug": "portfolio",
+    "project2_slug_title": "portfoy-sitesi",
+    "project2_description_title": "Proje Detayı",
+    "project2_description": "Bu projede, yeteneklerimi, çalışmalarımı ve profesyonel profilimi sergilemek amacıyla modern ve etkileşimli bir kişisel portföy web sitesi geliştirdim. Tasarım, hem minimalist hem de kullanıcı odaklı bir yaklaşım ile oluşturuldu. Proje boyunca hız, erişilebilirlik ve sade bir kullanıcı deneyimi sunmaya önem verdim.Web sitesi; hakkımda bilgiler, projelerim, teknik yetkinliklerim ve iletişim sayfası gibi bölümlerden oluşuyor. Ayrıca, proje kartlarını dinamik yapıda oluşturarak ileride yeni projeler eklemeyi kolaylaştırdım.",
+     "project2_technologies_title": "Proje Geliştirilirken Kullanılan Teknolojiler",
+    "project2_technologies":"NextJs,Sass,Bootstrap",
+    "project2_image": "portfolioo.jpg",
+
+    "project3_title": "Okul Yönetimi Web Sitesi",
+    "project3_slug": "blog",
+    "project3_slug_title": "blog-sitesi",
+    "project3_description_title": "Proje Detayı",
+    "project3_description": "Bu React projesi, verimli veri yönetimi için CRUD işlemlerini etkili bir şekilde kullandı.Merkezi durum yönetimi için Redux uygulandı ve veri akışı ve uygulama performansı iyileştirildi.Duyarlı web tasarımı sayesinde cihazlar arasında tutarlı bir kullanıcı deneyimi sağlamak için medya sorguları, Bootstrap ve birden fazla NPM paketi kullanıldı.Günlük Scrum toplantılarına katılındı ve proje uyumu ve ilerleme takibi için Yazılım Geliştirme Yaşam Döngüsü'ne (SDLC) uyuldu.",
+    "project3_technologies_title": "Proje Geliştirilirken Kullanılan Teknolojiler",
+    "project3_technologies": "React,Sass,API,Bootstrap,Axios,Redux",
+    "project3_image": "joyful.jpg",
+
+    "project4_title": "Alkan Dış Ticaret",
+    "project4_slug": "task-manager",
+    "project4_slug_title": "gorev-yonetim-uygulamasi",
+    "project4_description_title": "Proje Detayı",
+    "project4_description": "Bu projede, dış ticaret alanında faaliyet gösteren Alkan Dış Ticaret için modern, güvenilir ve kurumsal bir web sitesi geliştirdim. Web sitesi; şirketin hizmetlerini, çalışma alanlarını ve kurumsal profilini profesyonel bir şekilde tanıtmayı amaçlıyor. Tasarım sürecinde markanın kurumsal çizgisine uygun bir görünüm oluştururken, aynı zamanda kullanıcı dostu bir deneyim sunmaya özen gösterdim.Site; ana sayfa, hakkımızda, hizmetler, ürünler, iletişim ve potansiyel müşteri formları gibi temel bölümlerden oluşuyor. Ayrıca içeriklerin yönetilebilir olması ve ileride genişletilebilir bir altyapı sağlamak için modüler bir mimari kullanıldı.",
+    "project4_technologies_title": "Proje Geliştirilirken Kullanılan Teknolojiler",
+    "project4_technologies":"NextJs,Sass,Bootstrap",
+    "project4_image": "boyraz.png",
+
+    "project5_title": "Todo-List",
+    "project5_slug": "weather",
+    "project5_slug_title": "hava-durumu-panosu",
+    "project5_description_title": "Proje Detayı",
+    "project5_description": "React ve Css ile  geliştirilmiş bir todo-list web sitesidir",
+    "project5_technologies_title": "Proje Geliştirilirken Kullanılan Teknolojiler",
+    "project5_technologies": "React,Sass,Bootstrap.",
+    "project5_image": "todo.png",
+
+    "project6_title": "MP3 Player",
+    "project6_slug": "recipes",
+    "project6_slug_title": "yemek-tarifi-bulucu",
+    "project6_description_title": "Proje Detayı",
+    "project6_description": "Sırasıyla Müzik listeleme ve çalma ",
+    "project6_technologies_title": "Proje Geliştirilirken Kullanılan Teknolojiler",
+    "project6_technologies": "Html,Css,JavaScript",
+    "project6_image": "mp3.jpg"
+  },
+  "contact": {
+    "contact-title": "İletişime Geç",
+    "description": "Herhangi bir işbirliği fırsatı veya sorunuz için benimle iletişime geçin, birlikte harika işler çıkaralım.",
+    "contact-section-title": "Sorunuz mu var?",
+    "contact-section-desc": "Size Yardımcı Olmaya Hazırım",
+    "contact-form-title": "Bana E-posta Gönderin",
+    "contact-form-subtitle": "Sizden haber almayı çok isterim!",
+    "contact-message": "Mesajınız başarıyla gönderildi!",
+    "contact-error": "Bir şeyler ters gitti. Lütfen tekrar deneyin.",
+    "required-field": "Bu alan zorunludur",
+    "form": {
+      "name": "Adınız",
+      "email": "E-posta",
+      "subject": "Konu",
+      "message": "Mesaj",
+      "submit": "Mesaj Gönder"
+    },
+    "contact-info": {
+      "phone-title": "Telefon",
+      "email-title": "E-posta"
+     
+    }
+  },
+  "mainMenu": {
+    "home": "Anasayfa",
+    "about": "Hakkımda",
+    "skills": "Yetenekler",
+    "services": "Hizmetler",
+    "projects": "Projeler",
+    "contact": "İletişim"
+  },
+  "error": {
+    "error_title": "Oops, Bu Sayfa Bulunamadı!",
+    "error_text": "Aradığınız sayfayı bulamadık. Lütfen tekrar deneyin veya menüden farklı bir sayfaya gidin.",
+    "error_button_text": "Tekrar Dene",
+    "image": "error.jpg"
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "home": {
+    "title": "Hello, my name is ",
+    "name": "Funda Güngör Alkan, ",
+
+    "my-profession": "I'm a",
+    "typing": ["Full Stack Developer", "Software Engineer", "Web Developer"],
+
+    "description": "As a Full Stack Developer driven to create high-quality, responsive, and scalable web applications. I specialize in React & Next.js on the frontend and Java & Spring Boot on the backend, combining design thinking with backend logic to deliver seamless user experiences. Always exploring, improving, and building—one project at a time. Welcome to my world!",
+    "button-hire-me": "Hire Me",
+
+    "image": "funda.jpeg",
+    "imageAlt": "Funda Güngör Alkan"
+  },
+  "about": {
+    "name": "I'm Funda Güngör Alkan, Full Stack Developer",
+    "about_title": "About Me",
+    "button-download-cv": "Download CV",
+    "about_section_title1": "Education",
+    "about_section_title2": "Experience",
+    "title": "Full Stack Developer",
+    "description": "Experienced Full Stack Developer with 3+ years of expertise in building scalable web applications using modern frameworks and system programming languages. Specialized in Java/Spring ecosystems (Spring Boot, MVC, Security, Microservices) and JavaScript/TypeScript stacks (React.js, Next.js). Passionate about crafting high-performance, secure applications with clean architecture, unit testing, and Agile methodologies. Experienced in database optimization, version control, and continuous learning.",
+    "education": {
+      "education_date": "2014-2018",
+      "school_name": "Afyon Kocatepe University",
+      "degree": "Biomedical Engineering"
+    },
+    "experience": {
+      "smyrnaEdu": {
+        "company_name": "InovaForce",
+        "position": "Full Stack Developer",
+        "duration": "January 2025 - August 2025",
+        "description": "Led the development of a fully responsive and accessible educational web application using Next.js and TypeScript. Designed and implemented modular, reusable components to enhance code maintainability and scalability. Integrated server-side rendering (SSR) for improved performance and SEO optimization. Worked closely with the backend team to consume RESTful APIs, enabling real-time data display and seamless functionality. Conducted regular UI/UX testing and performance profiling to ensure a smooth and efficient user experience across all devices and browsers."
+      },
+      "boyrazDisTicaret": {
+        "company_name": "Boyraz Dış Ticaret",
+        "position": "Freelance Frontend Developer",
+        "duration": "March 2024 - June 2024",
+        "description": "Developed a trade-focused web platform using React and JavaScript, aimed at digitizing and optimizing internal business operations. Created dynamic, responsive UI components that aligned with modern design principles and ensured consistent performance across devices. Collaborated with cross-functional teams to implement API integrations, ensuring accurate and real-time data flow between frontend and backend systems. Applied best practices in state management and component structuring to improve code readability and performance. Contributed to usability enhancements based on user feedback and analytics data."
+      },
+      "eligibleSchool": {
+        "company_name": "EligibleSchool - Learning Management System",
+        "position": "Freelance Full Stack Developer",
+        "duration": "January 2024 - May 2024",
+        "description": "Engineered a robust Learning Management System from scratch by leveraging Spring Boot for backend services and React for the frontend interface. Designed RESTful APIs with proper validation, exception handling, and security using JWT-based authentication. Implemented role-based access control for students, teachers, and admins to ensure proper authorization across the system. Developed key modules including course management, lesson scheduling, user registration, and progress tracking. Participated in code reviews, unit testing, and deployment processes to maintain high development standards and ensure platform stability in production environments."
+      }
+    }
+  },
+   "skills": {
+    "skills-title": "Skills",
+    "skills-description": "A comprehensive set of technical and soft skills that enable me to build efficient, scalable, and user-centric software solutions, while continuously learning and adapting to new challenges.",
+    "html": "HTML",
+    "css": "CSS",
+    "javascript": "JavaScript",
+    "react": "React",
+    "next_js": "Next.js",
+    "typescript": "TypeScript",
+    "java": "Java",
+    "spring-boot": "Spring Boot",
+    "spring-mvc": "Spring MVC",
+    "spring-security": "Spring Security",
+    "spring-cloud": "Spring Cloud",
+    "hibernate": "Hibernate",
+    "postgresql": "PostgreSQL",
+    "mongodb": "MongoDB",
+    "mysql": "MySQL",
+    "git": "Git",
+    "github": "GitHub",
+    "restful-apis": "RESTful APIs",
+    "version-control": "Version Control",
+    "problem-solving": "Problem Solving",
+    "creativity": "Creativity",
+    "attention-to-detail": "Attention to Detail",
+    "collaboration": "Collaboration",
+    "adaptability": "Adaptability",
+    "continuous-learning": "Continuous Learning",
+    "critical-thinking":"Critical Thinking",
+    "communication":"Communication"
+
+  },
+  "services": {
+    "services-title": "Services",
+    "services-description": "Discover the range of professional services I offer, from frontend and backend development to database management and agile project execution, all tailored to deliver high-quality software solutions.",
+    "frontend-title": "Frontend Development",
+    "frontend-description": "Designing and developing user-friendly, performance-oriented interfaces.",
+    "frontend-icon": "pi pi-desktop",
+
+    "backend-title": "Backend Development",
+    "backend-description": "Building strong and scalable backend solutions.",
+    "backend-icon": "pi pi-server",
+
+    "database-title": "Database Management",
+    "database-description": "Optimizing database performance and security.",
+    "database-icon": "pi pi-database",
+
+    "api-title": "API Development",
+    "api-description": "Creating robust and efficient RESTful APIs.",
+    "api-icon": "pi pi-code",
+
+    "responsive-title": "Responsive Web Design",
+    "responsive-description": "Creating responsive designs for all devices.",
+    "responsive-icon": "pi pi-mobile",
+
+    "agile-title": "Agile Development",
+    "agile-description": "Adopting Agile methodologies for efficient project management.",
+    "agile-icon": "pi pi-briefcase"
+  },
+  "projects": {
+    "projects-title": "Projects",
+    "projects-description": "Discover some of my software projects developed with modern web technologies, featuring clean and efficient code structures.",
+    "projects-section-title": "My Recent Projects",
+
+    "project1_title": "Ozkapan Website",
+    "project1_slug": "e-commerce",
+    "project1_slug_title": "e-commerce-site",
+    "project1_description_title": "Project Details",
+    "project1_description": "In this project, I developed a modern e-commerce web application with a strong focus on performance, usability, and clean architecture. The application is built using Next.js, leveraging features such as Server-Side Rendering (SSR) and Static Site Generation (SSG) to deliver a fast, SEO-friendly, and scalable structure.On the styling side, I used Sass (SCSS) to create modular, maintainable, and reusable style components. The UI is fully responsive, providing a consistent experience across all devices.",
+    "project1_technologies_title": "Technologies Used",
+    "project1_technologies": "NextJS,Sass,Responsive Web Design",
+    "project1_image": "ozkapan.jpg",
+
+    "project2_title": "Portfolio Website",
+    "project2_slug": "portfolio",
+    "project2_slug_title": "portfolio-site",
+    "project2_description_title": "Project Details",
+    "project2_description": "This project is a modern and interactive personal portfolio website designed to showcase my skills, projects, and professional background. The design follows a minimalist and user-centric approach, focusing on clarity, accessibility, and smooth user experience.The website includes sections such as About Me, Projects, Skills, and Contact. I created a dynamic project structure that allows easy addition of new portfolio items as my work grows.",
+    "project2_technologies_title": "Technologies Used",
+    "project2_technologies": "NextJs,Sass,Bootstrap",
+    "project2_image": "portfolioo.jpg",
+
+    "project3_title": "School Management Website",
+    "project3_slug": "blog",
+    "project3_slug_title": "blog-site",
+    "project3_description_title": "Project Details",
+    "project3_description": "In this React project, CRUD operations were effectively utilized for efficient data management.Implemented Redux for centralized state management, enhancing data flow and application performance.Utilized media queries, Bootstrap and multiple NPM packages to ensure a consistent user experience across different devices through responsive web design.Participated in daily Scrum meetings and adhered to the Software Development Life Cycle (SDLC) for project alignment and tracking progress.",
+    "project3_technologies_title": "Technologies Used",
+    "project3_technologies": "React,Sass,API,Bootstrap,Axios,Redux",
+    "project3_image": "joyful.jpg",
+
+    "project4_title": "Alkan Dış Ticaret",
+    "project4_slug": "task-manager",
+    "project4_slug_title": "task-management-app",
+    "project4_description_title": "Project Details",
+    "project4_description": "In this project, I developed a modern and professional corporate website for Alkan Foreign Trade, a company operating in the international trade sector. The website is designed to effectively present the company’s services, business areas, and corporate identity while maintaining a clean and trustworthy visual style.The site includes core sections such as Home, About Us, Services, Products, Contact, and a client inquiry form. A modular architecture was used to ensure that the content can be easily updated and expanded in the future.",
+    "project4_technologies_title": "Technologies Used",
+    "project4_technologies": "NextJs,Sass,Bootstrap",
+    "project4_image": "boyraz.png",
+
+    "project5_title": "Todo-List",
+    "project5_slug": "weather",
+    "project5_slug_title": "weather-dashboard",
+    "project5_description_title": "Project Details",
+    "project5_description": "It is a todo-list website developed with React and Css",
+    "project5_technologies_title": "Technologies Used",
+    "project5_technologies": "React,Css,Bootstrap",
+    "project5_image": "todo.png",
+
+    "project6_title": "Music Player",
+    "project6_slug": "recipes",
+    "project6_slug_title": "recipe-finder",
+    "project6_description_title": "Project Details",
+    "project6_description": "list and play music respectively",
+    "project6_technologies_title": "Technologies Used",
+    "project6_technologies": "Html,Css,JavaScript",
+    "project6_image": "mp3.jpg"
+  },
+  "contact": {
+    "contact-title": "Contact Me",
+    "description": "Get in touch with me for any inquiries or collaboration opportunities, and let's create something exceptional together.",
+    "contact-section-title": "Have You Any Question?",
+    "contact-section-desc": "I'm Ready To Help You",
+    "contact-form-title": "Send Me An Email",
+    "contact-form-subtitle": "I'm very eager to hear from you!",
+    "contact-message": "Your message has been sent successfully!",
+    "contact-error": "Something went wrong. Please try again.",
+    "required-field": "This field is required",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "subject": "Subject",
+      "message": "Message",
+      "submit": "Send Message"
+    },
+    "contact-info": {
+      "phone-title": "Contact Us",
+      "email-title": "Email"
+    }
+  },
+  "mainMenu": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "services": "Services",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "error": {
+    "error_title": "Oops,This Page Not Found!",
+    "error_text": "We couldn’t find the page you were looking for.Try again or go to a different page from the menu.",
+    "error_button_text": "Try Again",
+    "image": "error.jpg"
+  }
+}

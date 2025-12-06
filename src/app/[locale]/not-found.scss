@@ -1,0 +1,46 @@
+@use "../../styles/variables.scss" as *;
+@use "../../styles/mixins.scss" as *;
+
+.not-found-container {
+  @include flexbox(column, center, center);
+  max-width: 100%;
+  height: 90vh;
+  background-color: var(--bg-color-900);
+  color: var(--text-black-900);
+  padding: 2rem;
+  text-align: center;
+  
+
+  .image-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 900px; // Maksimum genişlik
+    height: 60vh;     // Ekran yüksekliğinin %60'ı
+    margin: 0 auto;
+
+    .responsive-image {
+      object-fit: contain; // Resmi orantılı sığdırır (kesme yapmadan)
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  a.btn {
+    background-color: #ff745c;
+    color: var(--text-black-900);
+    border: 5px solid #ff745c;
+    padding: 1rem 2rem;
+    margin-top: 2rem;
+    @include borderRadius(40px);
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 1.5rem ! important;
+   
+    @include transition(all 0.7s ease-in-out);
+    
+    &:hover {
+      background-color: var(--bg-color-900);
+      color: var(--text-black-900);
+    }
+  }
+}

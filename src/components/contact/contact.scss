@@ -1,0 +1,66 @@
+@use "../../styles/variables" as *;
+@use "../../styles/mixins.scss" as *;
+
+.contact {
+  padding: 2rem;
+  @include flexbox($ai: center, $jc: center, $fd: column, $gap: 2rem);
+
+  .contact-info-item {
+    @include flexbox($ai: center, $jc: space-between, $fd: row, $gap: 1rem);
+    text-align: center;
+    margin-bottom: 60px;
+
+    .icon {
+      display: block;
+
+      svg {
+        color: var(--skin-color);
+        width: 80px;
+        height: 80px;
+        display: block;
+        margin: 0 auto 30px;
+        @include transition(all 0.5s ease);
+        background-color: var(--bg-color-900);
+        padding: 1rem;
+        @include borderRadius(50%);
+
+        &:hover {
+          background-color: var(--skin-color);
+          font-size: 25px;
+          color: var(--text-black-900);
+          @include borderRadius(50%);
+          padding: 1.5rem;
+        }
+      }
+    }
+
+    h4 {
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: var(--text-black-900);
+      text-transform: capitalize;
+      margin: 15px 0 5px;
+    }
+
+    p {
+      font-size: 1rem;
+      line-height: 1.3rem;
+      color: var(--text-black-700);
+      font-weight: 400;
+      @media (max-width: 1300px) {
+        font-size: 0.8rem;
+      }
+      @media (max-width: 991px) {
+        font-size: 1.1rem;        
+      }
+
+      @media (max-width: 768px) {
+        font-size: 1rem;
+        text-align: center;
+      }
+    }
+    @media (max-width: 768px) {
+      flex-direction: column;
+    }
+  }
+}

@@ -1,0 +1,45 @@
+@use "../../../styles/variables.scss" as *;
+@use "../../../styles/mixins.scss" as *;
+
+/* ========== LANGUAGE SWITCHER HORIZONTAL ========== */
+.lang-switcher-horizontal {
+  @include flexbox($fd: row, $jc: flex-start, $ai: center, $gap: 0.5rem);
+  background: transparent;
+  padding: 5px 10px;
+  margin-top: 1.2rem;
+
+  @media (max-width: 1400px) {
+    font-size: 0.85rem;
+  }
+
+  .lang-divider {
+    height: 20px;
+    width: 3px;
+    background-color: var(--text-black-900);
+    margin: 0 0.5rem;
+  }
+
+  .lang-switcher-item {
+    @include flexbox(row, center, center, 0.5rem);
+    color: var(--text-black-900) !important;
+    font-weight: 600;
+    padding: 8px 12px;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    position: relative;
+    
+    @media (max-width: 1400px) {
+      font-size: 0.85rem;
+      padding-inline: 0.5rem;
+    }
+
+    &.active {
+      color: var(--skin-color) !important; 
+    }
+  }
+
+  // Media query for smaller screens
+  @media (max-width: 991px) {
+    padding: 0;
+  }
+}

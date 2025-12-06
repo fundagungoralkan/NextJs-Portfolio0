@@ -1,0 +1,91 @@
+@use "../../styles/variables" as *;
+@use "../../styles/mixins" as *;
+
+.project-section {
+  background-color: var(--bg-color-900);
+  padding: 2rem;
+
+  .container {
+    .row {
+      margin-top: 1rem;
+      .project-item {
+        position: relative;
+        overflow: hidden;
+        margin-bottom: 30px;
+        flex: 0 0 33.33%;
+        max-width: 33.33%;
+        .project-item_image {
+          position: relative;
+          background-color: var(--skin-color);
+          @include borderRadius(0.5rem);
+          img {
+            position: relative;
+            z-index: 1;
+            left: 0.7rem;
+            top: 0.7rem;
+            width: 101%;
+            height: 101%;
+            object-fit: cover;
+            object-position: center;
+            @include borderRadius(0.5rem);
+            display: block;
+            @include transition(all 0.5s ease);
+
+            &:hover {
+              @include transform(scale(1.02));
+            }
+          }
+          // Hover overlay katmanı
+          .overlay {
+            position: absolute;
+            left: 0.7rem;
+            top: 0.7rem;
+            z-index: 2;
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+            background-color: var(--skin-color);
+            @include borderRadius(0.5rem);
+            @include flexbox(row, center, center);
+
+            @include transition(opacity 0.5s ease);
+
+            .project-title {
+              color: var(--text-black-900);
+              font-size: 1.5rem;
+              text-align: center;
+              padding: 1rem;
+            }
+          }
+
+          &:hover .overlay {
+            opacity: 1;
+          
+          }
+        }
+      }
+
+      // Responsive medya sorguları
+      @media (max-width: 1300px) {
+        .project-item {
+          flex: 0 0 50%;
+          max-width: 50%;
+        }
+      }
+
+      @media (max-width: 992px) {
+        .project-item {
+          flex: 0 0 50%;
+          max-width: 50%;
+        }
+      }
+
+      @media (max-width: 561px) {
+        .project-item {
+          flex: 0 0 100%;
+          max-width: 100%;
+        }
+      }
+    }
+  }
+}

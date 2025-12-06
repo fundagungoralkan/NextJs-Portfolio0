@@ -1,0 +1,109 @@
+@use "./variables" as *;
+@use "./mixins" as *;
+@import "bootstrap/scss/bootstrap";
+@import "primeicons/primeicons.css";
+@import "flag-icons/css/flag-icons.min.css";
+
+html {
+  scroll-behavior: smooth;
+}
+a {
+  text-decoration: none;
+}
+
+.section {
+  background-color: var(--bg-color-900);
+  min-height: 100vh;
+  display: block;
+  padding: 30px;
+  opacity: 1;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.main-content {
+  padding-left: 370px;
+}
+
+.padd-15 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.container {
+  max-width: 1300px;
+  width: 100%;
+  margin: auto;
+}
+
+.section .container {
+  padding-bottom: 70px;
+}
+
+.section-title {
+  flex: 0 0 100%;
+  max-width: 100%;
+  margin-bottom: 60px;
+}
+
+.section-title h2 {
+  font-size: 46px;
+  font-weight: 700;
+  color: var(--text-black-900);
+  position: relative;
+}
+
+.section-title h2::before {
+  content: "";
+  height: 4px;
+  width: 50px;
+  background-color: var(--skin-color);
+  position: absolute;
+  top: 100%;
+  left: 0;
+}
+
+.section-title h2::after {
+  content: "";
+  height: 4px;
+  width: 25px;
+  background-color: var(--skin-color);
+  position: absolute;
+  top: 100%;
+  left: 0;
+  margin-top: 8px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -15px;
+  margin-right: -15px;
+  position: relative;
+}
+.btn {
+  font-size: 1.3rem;
+  font-weight: 600;
+  padding: 12px 35px;
+  color: var(--bg-color-900); // düzeltilmiş varsayılan yazı rengi
+  @include border-radius(40px);
+  display: inline-block;
+  white-space: nowrap;
+  border: none;
+  background-color: var(--skin-color)!important;
+  transition: all 0.3s ease;
+
+  &:focus,
+  &:active,
+  &:hover {
+    background-color: var(--skin-color); // aynı rengi koru
+    color: var(--text-black-900); // yazı rengini de netleştir
+    @include transform(scale(1.05));
+  }
+}
+
+.shadow-dark {
+  @include shadow(box, 0px 0px 20px rgba(var(--bg-black-100), 0.1));
+}
