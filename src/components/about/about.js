@@ -28,7 +28,7 @@ const About = () => {
         <div className="button-group d-flex flex-wrap gap-5 mb-5">
           <ButtonComponent
             title={hx("button-download-cv")}
-            path={`/cv/FundaCV-new.pdf`}
+            path={`/cv/fundaCV.pdf`}
             rel="noopener noreferrer"
             download
           />
